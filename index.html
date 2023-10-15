@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Tasks</title>
+    <style>
+        .striped-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h1{
+  text-align: center;
+}
+
+.striped-table th,
+.striped-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.striped-table th {
+  background-color: #ccc;
+}
+
+.striped-table .odd {
+  background-color: #fff;
+}
+
+.striped-table .even {
+  background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  .striped-table {
+    border: 0;
+  }
+
+  .striped-table th,
+  .striped-table td {
+    border: 0;
+  }
+
+  .striped-table th:before {
+    content: "";
+    display: block;
+    height: 20px;
+  }
+
+  .striped-table th:first-child {
+    display: none;
+  }
+
+  .striped-table td {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .striped-table td:before {
+    content: attr(data-th);
+    display: block;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+}
+    </style>
+</head>
+<body>
+  <h1>React Projects</h1>
+  <h1>Geetha Bhargavi Tholupuluri</h1>
+  <h1>21BCE8508</h1>
+    <table class="striped-table" border= 2px>
+        <thead>
+          <tr>
+            <th>Task Number</th>
+            <th>Repository Link</th>
+            <th>Deployment Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td>word counter</td>
+            <td><a href="https://github.com/GeethaBhargavii/word-counter.git">Link</a></td>
+            <td><a href="https://word-counter-lilac.vercel.app/">Link</a></td>
+          </tr>
+          <tr class="even">
+            <td>Calculator</td>
+            <td><a href="https://github.com/GeethaBhargavii/Calculator.git">Link</a></td>
+            <td><a href="https://calculator-eight-sigma-38.vercel.app/">Link</a></td>
+          </tr>
+          <tr class="odd">
+            <td>Color Picker</td>
+            <td><a href="https://github.com/GeethaBhargavii/color-picker.git">Link</a></td>
+            <td><a href="https://color-picker-pink-mu.vercel.app/">Link</a></td>
+          </tr>
+          <tr class="even">
+            <td>Dummy Data</td>
+            <td><a href="https://github.com/GeethaBhargavii/Dummy-data.git">Link</a></td>
+            <td><a href="https://dummydata-beta.vercel.app/">Link</a></td>
+          </tr>
+          <tr class="odd">
+            <td>Age Calculator</td>
+            <td><a href="https://github.com/GeethaBhargavii/Age-Calculator.git">Link</a></td>
+            <td><a href="https://age-calculator-one-gold.vercel.app/">Link</a></td>  
+          </tr>
+          <tr class="even">
+            <td>Portfolio</td>
+            <td><a href="https://github.com/GeethaBhargavii/Portfolio.git">Link</a></td>
+            <td><a href="https://portfolio-azure-phi-38.vercel.app/">Link</a></td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
